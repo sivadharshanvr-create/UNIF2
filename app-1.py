@@ -14,6 +14,45 @@ from plotly.subplots import make_subplots
 
 from analysis import run_pipeline, SEGMENT_NAMES, SEGMENT_DESC
 
+# ── Auto-generate data if CSVs don't exist ───────────────────────────────────
+_data_dir = os.path.join(os.path.dirname(__file__), "data")
+if not os.path.exists(os.path.join(_data_dir, "users.csv")):
+    os.makedirs(_data_dir, exist_ok=True)
+    import random
+    from datetime import datetime, timedelta
+    _np = np; _rng = 42; _np.random.seed(_rng); random.seed(_rng)
+    N_U, N_C, N_T = 1000, 150, 5000
+    users = pd.DataFrame({
+        "UserID": [f"U{str(i).zfill(4)}" for i in range(1, N_U+1)],
+        "Age": _np.random.randint(18, 65, N_U),
+        "Gender": _np.random.choice(["Male","Female","Non-binary","Prefer not to say"], N_U, p=[0.48,0.44,0.05,0.03]),
+        "Country": _np.random.choice(["India","USA","UK","Canada","Germany","Australia","Brazil"], N_U, p=[0.35,0.20,0.10,0.10,0.10,0.08,0.07]),
+        "JoinDate": [(datetime(2022,1,1)+timedelta(days=random.randint(0,900))).strftime("%Y-%m-%d") for _ in range(N_U)]
+    })
+    cats = ["Data Science","Web Development","Business","Design","Marketing","AI/ML","Cloud","Cybersecurity","Finance","Language"]
+    courses = pd.DataFrame({
+        "CourseID": [f"C{str(i).zfill(3)}" for i in range(1, N_C+1)],
+        "CourseName": [f"Course_{i}" for i in range(1, N_C+1)],
+        "CourseCategory": _np.random.choice(cats, N_C),
+        "CourseType": _np.random.choice(["Video","Interactive","Project-Based","Live"], N_C, p=[0.4,0.25,0.25,0.10]),
+        "CourseLevel": _np.random.choice(["Beginner","Intermediate","Advanced"], N_C, p=[0.40,0.35,0.25]),
+        "CourseRating": _np.round(_np.random.uniform(3.0, 5.0, N_C), 1),
+        "CourseDurationHrs": _np.random.randint(2, 60, N_C),
+        "CoursePrice": _np.round(_np.random.uniform(9.99, 199.99, N_C), 2),
+    })
+    txn = pd.DataFrame({
+        "TransactionID": [f"T{str(i).zfill(5)}" for i in range(1, N_T+1)],
+        "UserID": _np.random.choice(users["UserID"].tolist(), N_T),
+        "CourseID": _np.random.choice(courses["CourseID"].tolist(), N_T),
+        "TransactionDate": [(datetime(2022,1,1)+timedelta(days=random.randint(0,900))).strftime("%Y-%m-%d") for _ in range(N_T)],
+        "Amount": _np.round(_np.random.uniform(9.99, 199.99, N_T), 2),
+        "CompletionStatus": _np.random.choice(["Completed","In Progress","Not Started"], N_T, p=[0.45,0.35,0.20]),
+        "Rating": _np.where(_np.random.rand(N_T)>0.3, _np.round(_np.random.uniform(2.5,5.0,N_T),1), _np.nan)
+    }).drop_duplicates(subset=["UserID","CourseID"])
+    users.to_csv(f"{_data_dir}/users.csv", index=False)
+    courses.to_csv(f"{_data_dir}/courses.csv", index=False)
+    txn.to_csv(f"{_data_dir}/transactions.csv", index=False)
+
 # ── Page config ─────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="EduPro — Learner Intelligence",
