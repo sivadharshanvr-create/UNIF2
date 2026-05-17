@@ -1,0 +1,151 @@
+CourseID,CourseName,CourseCategory,CourseType,CourseLevel,CourseRating,CourseDurationHrs,CoursePrice
+C001,Course_1,Web Development,Video,Advanced,4.1,46,134.38
+C002,Course_2,Marketing,Video,Intermediate,3.4,16,166.51
+C003,Course_3,AI/ML,Live,Advanced,4.2,4,21.99
+C004,Course_4,Cloud,Live,Beginner,4.5,12,157.58
+C005,Course_5,Marketing,Video,Intermediate,4.5,54,166.1
+C006,Course_6,Finance,Project-Based,Intermediate,4.0,47,97.68
+C007,Course_7,Data Science,Video,Advanced,3.1,31,196.82
+C008,Course_8,Cloud,Video,Beginner,3.7,58,159.46
+C009,Course_9,Language,Project-Based,Advanced,4.8,41,156.99
+C010,Course_10,Cloud,Live,Intermediate,4.2,19,152.08
+C011,Course_11,Design,Live,Beginner,4.1,52,38.61
+C012,Course_12,Finance,Interactive,Beginner,3.5,49,51.26
+C013,Course_13,Marketing,Video,Advanced,3.7,3,98.15
+C014,Course_14,Design,Project-Based,Beginner,4.8,33,60.15
+C015,Course_15,Cloud,Video,Beginner,4.3,9,88.89
+C016,Course_16,Design,Interactive,Beginner,4.6,23,178.8
+C017,Course_17,Business,Video,Advanced,3.9,7,166.61
+C018,Course_18,Finance,Project-Based,Intermediate,4.3,13,129.7
+C019,Course_19,Cybersecurity,Video,Advanced,3.5,48,173.03
+C020,Course_20,Data Science,Video,Beginner,4.4,58,158.91
+C021,Course_21,Cloud,Live,Intermediate,3.9,41,91.5
+C022,Course_22,Finance,Video,Intermediate,3.9,37,48.19
+C023,Course_23,Cybersecurity,Interactive,Advanced,4.3,16,107.69
+C024,Course_24,Cybersecurity,Video,Advanced,4.9,29,149.87
+C025,Course_25,AI/ML,Video,Beginner,3.1,53,92.91
+C026,Course_26,Design,Video,Intermediate,4.6,58,136.68
+C027,Course_27,Cybersecurity,Video,Beginner,3.6,50,27.91
+C028,Course_28,Business,Project-Based,Intermediate,3.9,46,152.11
+C029,Course_29,Finance,Video,Beginner,3.0,19,164.41
+C030,Course_30,Web Development,Live,Beginner,3.6,3,144.29
+C031,Course_31,Web Development,Interactive,Beginner,4.0,14,193.77
+C032,Course_32,Cloud,Interactive,Intermediate,3.1,46,167.05
+C033,Course_33,Language,Interactive,Beginner,4.0,55,181.58
+C034,Course_34,Design,Interactive,Intermediate,4.9,16,187.37
+C035,Course_35,Language,Project-Based,Intermediate,3.2,21,162.25
+C036,Course_36,Cybersecurity,Video,Beginner,4.5,30,138.1
+C037,Course_37,Finance,Video,Advanced,3.8,43,11.08
+C038,Course_38,Cloud,Project-Based,Beginner,4.3,30,98.5
+C039,Course_39,Marketing,Live,Intermediate,3.5,4,118.51
+C040,Course_40,Cybersecurity,Project-Based,Intermediate,3.3,20,67.76
+C041,Course_41,Design,Interactive,Beginner,3.3,4,70.43
+C042,Course_42,Web Development,Project-Based,Beginner,3.1,55,192.61
+C043,Course_43,AI/ML,Interactive,Beginner,3.4,15,179.42
+C044,Course_44,Finance,Interactive,Advanced,4.3,41,171.33
+C045,Course_45,Data Science,Video,Intermediate,4.8,56,87.13
+C046,Course_46,Language,Interactive,Intermediate,4.6,5,12.59
+C047,Course_47,Cloud,Video,Intermediate,4.4,53,25.23
+C048,Course_48,Language,Video,Beginner,3.2,12,69.31
+C049,Course_49,Finance,Project-Based,Intermediate,3.6,59,12.98
+C050,Course_50,Language,Video,Advanced,3.6,32,13.25
+C051,Course_51,Finance,Video,Beginner,3.5,44,184.14
+C052,Course_52,Language,Video,Beginner,4.0,33,144.16
+C053,Course_53,Business,Live,Beginner,4.1,28,68.69
+C054,Course_54,Marketing,Interactive,Intermediate,3.7,31,35.19
+C055,Course_55,Cybersecurity,Interactive,Advanced,3.7,44,107.2
+C056,Course_56,Cybersecurity,Project-Based,Beginner,4.7,3,11.01
+C057,Course_57,Design,Project-Based,Intermediate,4.6,50,188.29
+C058,Course_58,Data Science,Video,Beginner,3.6,10,88.8
+C059,Course_59,Data Science,Project-Based,Advanced,4.8,29,86.43
+C060,Course_60,Design,Project-Based,Beginner,4.9,32,84.2
+C061,Course_61,AI/ML,Project-Based,Intermediate,3.7,35,23.16
+C062,Course_62,Cybersecurity,Video,Intermediate,3.7,57,131.27
+C063,Course_63,AI/ML,Project-Based,Intermediate,4.0,16,149.26
+C064,Course_64,Finance,Interactive,Intermediate,4.9,49,138.45
+C065,Course_65,Finance,Video,Beginner,4.8,26,36.29
+C066,Course_66,Web Development,Interactive,Beginner,3.2,37,119.97
+C067,Course_67,Language,Video,Beginner,3.8,9,118.19
+C068,Course_68,Data Science,Video,Beginner,4.1,10,174.99
+C069,Course_69,Web Development,Project-Based,Intermediate,4.0,59,82.02
+C070,Course_70,Marketing,Video,Beginner,3.4,59,80.57
+C071,Course_71,Design,Interactive,Beginner,4.7,38,127.51
+C072,Course_72,Design,Interactive,Intermediate,4.4,49,130.27
+C073,Course_73,Finance,Video,Advanced,4.7,46,99.15
+C074,Course_74,Cybersecurity,Live,Intermediate,4.7,40,94.17
+C075,Course_75,AI/ML,Video,Beginner,4.5,33,103.88
+C076,Course_76,Data Science,Video,Beginner,3.9,59,173.59
+C077,Course_77,Web Development,Video,Advanced,4.2,53,97.61
+C078,Course_78,AI/ML,Video,Beginner,3.3,18,188.58
+C079,Course_79,Web Development,Video,Beginner,4.3,36,105.75
+C080,Course_80,Language,Project-Based,Intermediate,3.4,38,190.34
+C081,Course_81,Marketing,Live,Intermediate,4.4,20,168.23
+C082,Course_82,Marketing,Video,Intermediate,3.5,45,78.85
+C083,Course_83,AI/ML,Project-Based,Beginner,3.2,30,174.08
+C084,Course_84,AI/ML,Project-Based,Beginner,3.3,8,30.9
+C085,Course_85,AI/ML,Project-Based,Advanced,3.0,29,185.75
+C086,Course_86,Web Development,Interactive,Beginner,4.4,10,130.0
+C087,Course_87,Language,Video,Intermediate,4.5,29,20.32
+C088,Course_88,Business,Video,Intermediate,4.0,7,132.4
+C089,Course_89,AI/ML,Project-Based,Intermediate,3.3,30,195.1
+C090,Course_90,Cybersecurity,Project-Based,Beginner,3.2,59,23.25
+C091,Course_91,Data Science,Video,Beginner,3.0,18,115.38
+C092,Course_92,Data Science,Video,Intermediate,3.3,17,152.07
+C093,Course_93,Web Development,Live,Advanced,4.8,24,163.94
+C094,Course_94,AI/ML,Project-Based,Advanced,3.5,32,88.62
+C095,Course_95,Finance,Live,Beginner,3.7,4,48.78
+C096,Course_96,Design,Project-Based,Beginner,3.2,22,18.04
+C097,Course_97,Business,Video,Advanced,3.4,27,120.14
+C098,Course_98,Cybersecurity,Interactive,Intermediate,4.0,37,96.04
+C099,Course_99,Language,Project-Based,Advanced,4.2,43,190.25
+C100,Course_100,Finance,Video,Beginner,3.5,38,21.5
+C101,Course_101,Marketing,Interactive,Intermediate,3.1,54,140.22
+C102,Course_102,Finance,Project-Based,Intermediate,3.8,23,14.73
+C103,Course_103,Web Development,Video,Intermediate,3.5,43,42.56
+C104,Course_104,Business,Project-Based,Intermediate,3.4,13,96.17
+C105,Course_105,Cloud,Interactive,Beginner,4.9,43,96.42
+C106,Course_106,Cloud,Live,Intermediate,4.2,14,140.27
+C107,Course_107,AI/ML,Video,Beginner,4.1,12,182.93
+C108,Course_108,AI/ML,Video,Intermediate,3.8,55,131.41
+C109,Course_109,Web Development,Interactive,Advanced,3.9,17,191.16
+C110,Course_110,Language,Video,Beginner,4.1,9,177.5
+C111,Course_111,AI/ML,Project-Based,Advanced,4.4,41,121.04
+C112,Course_112,Design,Project-Based,Beginner,4.4,58,168.41
+C113,Course_113,Business,Video,Intermediate,3.3,41,132.08
+C114,Course_114,Web Development,Interactive,Advanced,4.0,46,24.92
+C115,Course_115,Data Science,Interactive,Beginner,3.8,3,150.7
+C116,Course_116,Marketing,Video,Beginner,4.7,31,28.02
+C117,Course_117,Web Development,Live,Intermediate,4.3,31,122.87
+C118,Course_118,Web Development,Project-Based,Beginner,4.1,13,143.49
+C119,Course_119,Cloud,Project-Based,Intermediate,3.2,11,22.63
+C120,Course_120,Cybersecurity,Project-Based,Advanced,4.2,45,53.84
+C121,Course_121,Language,Interactive,Intermediate,3.2,12,183.97
+C122,Course_122,Cybersecurity,Live,Beginner,3.7,16,127.09
+C123,Course_123,Design,Project-Based,Intermediate,3.3,17,56.78
+C124,Course_124,Data Science,Project-Based,Intermediate,4.4,18,141.22
+C125,Course_125,Cloud,Project-Based,Beginner,3.4,27,123.38
+C126,Course_126,Data Science,Video,Intermediate,3.8,3,105.29
+C127,Course_127,Design,Project-Based,Intermediate,4.8,51,195.47
+C128,Course_128,Cybersecurity,Video,Intermediate,3.4,13,139.85
+C129,Course_129,Web Development,Video,Beginner,4.0,52,81.32
+C130,Course_130,AI/ML,Video,Intermediate,3.8,27,162.0
+C131,Course_131,AI/ML,Live,Beginner,3.0,24,178.06
+C132,Course_132,Finance,Project-Based,Beginner,4.6,19,33.78
+C133,Course_133,Marketing,Project-Based,Advanced,3.1,33,48.1
+C134,Course_134,Language,Project-Based,Intermediate,3.9,50,51.07
+C135,Course_135,Design,Interactive,Beginner,4.1,39,141.32
+C136,Course_136,Marketing,Live,Beginner,4.3,58,124.57
+C137,Course_137,Language,Interactive,Beginner,4.4,48,127.6
+C138,Course_138,Marketing,Video,Beginner,3.5,4,188.74
+C139,Course_139,Cybersecurity,Video,Beginner,3.0,39,157.41
+C140,Course_140,Language,Project-Based,Beginner,4.4,4,34.3
+C141,Course_141,Cybersecurity,Project-Based,Intermediate,4.1,31,76.02
+C142,Course_142,Web Development,Video,Intermediate,4.7,2,92.71
+C143,Course_143,Cloud,Video,Intermediate,4.6,31,85.22
+C144,Course_144,Cybersecurity,Project-Based,Intermediate,4.7,46,137.16
+C145,Course_145,AI/ML,Video,Beginner,4.0,33,179.45
+C146,Course_146,Marketing,Project-Based,Advanced,3.7,29,68.14
+C147,Course_147,Finance,Live,Advanced,4.6,22,114.85
+C148,Course_148,Business,Interactive,Advanced,3.9,59,159.98
+C149,Course_149,Language,Video,Advanced,3.4,47,89.07
+C150,Course_150,Design,Project-Based,Advanced,4.7,14,41.93
